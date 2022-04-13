@@ -17,7 +17,24 @@ const Users = () => {
 
     return (
         <div>
-            {users.map(value => <User key={value.id} id={value.id} name={value.name} username={value.username} email={value.email} addres={value.addres} phone={value.phone} website={value.website} company={value.company}/>)}
+            {users.map(value => <User
+                key={value.id}
+                id={value.id}
+                name={value.name}
+                username={value.username}
+                email={value.email}
+                street={value.address.street}
+                suite={value.address.suite}
+                city={value.address.city}
+                zipcode={value.address.zipcode}
+                lat={value.address.geo.lat}
+                lng={value.address.geo.lng}
+                phone={value.phone}
+                website={value.website}
+                companyName={value.company.name}
+                catchPhrase={value.company.catchPhrase}
+                bs={value.company.bs}
+            />)}
         </div>
     );
 };
