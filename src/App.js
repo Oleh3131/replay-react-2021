@@ -6,16 +6,15 @@ import Comments from "./components/Comments/Comments";
 
 function App() {
     return (
-        <div>
-            <div>
+        <div className={'MainBlock'}>
+            <div className={"SecondBlock"}>
                 <Users/>
                 <Posts/>
             </div>
-            <div>
+            <div className={"ThirdBlock"}>
                 <Comments/>
             </div>
         </div>
-
     );
 }
 
