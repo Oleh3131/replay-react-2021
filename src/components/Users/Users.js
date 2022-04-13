@@ -1,9 +1,10 @@
 import React, {useEffect, useState} from 'react';
+
 import User from "../User/User";
 
 const Users = () => {
 
-    let [users,setUsers] = useState([]);
+    const [users,setUsers] = useState([]);
 
     useEffect(()=>{
 
@@ -16,7 +17,7 @@ const Users = () => {
 
     return (
         <div>
-            {users.map(value => <User key={value.id} user={value}/>)}
+            {users.map(value => <User key={value.id} id={value.id} name={value.name} username={value.username} email={value.email} addres={value.addres} phone={value.phone} website={value.website} company={value.company}/>)}
         </div>
     );
 };
