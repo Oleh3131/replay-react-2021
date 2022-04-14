@@ -1,9 +1,10 @@
 import './App.css';
+import SpaceX from "./components/SpaceX/SpaceX";
 
 function App() {
   return (
     <div>
-      <h1>Hello world wf</h1>
+      <SpaceX/>
     </div>
   );
 }
