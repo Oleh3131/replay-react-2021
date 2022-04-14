@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.SpaceX {
+    padding: 50px;
+    display: flex;
+    flex-direction:column;
+    background: blanchedalmond;
+    row-gap: 50px;
+}
+
+.Rocket {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.FirstBlock {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 20px;
+    width: 50%;
+}
+
+.SecondBlock{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
