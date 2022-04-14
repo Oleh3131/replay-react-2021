@@ -7,6 +7,8 @@
 .MainBlock {
     display: flex;
     flex-direction: column;
+    padding: 50px;
+    background: blanchedalmond;
 }
 
 .SecondBlock {
@@ -14,6 +16,7 @@
     justify-content: center;
     width: 100%;
     column-gap: 150px;
+
 }
 
 .Users {
@@ -22,6 +25,11 @@
     align-items: center;
     width: 30%;
     row-gap: 50px;
+    background: cornflowerblue;
+    padding: 30px;
+    border: 5px solid white;
+    border-radius: 10px;
+    color: white;
 }
 
 .Posts {
@@ -30,15 +38,33 @@
     align-items: center;
     width: 30%;
     row-gap: 25px;
+    background: gold;
+    padding: 30px;
+    border: 5px solid white;
+    border-radius: 10px;
 }
 
 .ThirdBlock{
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 .Comments{
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
+    padding: 30px;
+    justify-content: center;
     width: 50%;
+    row-gap: 50px;
+    background: red;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.Comment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
